@@ -72,7 +72,7 @@ def move():
         x = headofsnake.xcor()
         headofsnake.setx(x + 20)
 
-# Keyboard bindings
+# Keyboard 
 screen.listen()
 screen.onkeypress(go_up, 'w')
 screen.onkeypress(go_down, 's')
